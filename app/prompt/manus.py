@@ -8,7 +8,9 @@ FileSaver: Save files locally, such as txt, py, html, etc.
 
 BrowserUseTool: Open, browse, and use web browsers.If you open a local HTML file, you must provide the absolute path to the file.
 
-GoogleSearch: Perform web information retrieval
+GoogleSearch: Perform web information retrieval.
+
+HtmlSaver:Open a browser and nevigate to the specified url. Save the html content of the specified url to a local file at a specified path.Use this tool when you need to save html content of the specified url to a file on the local filesystem. The tool accepts a url and a file path, and saves the html content of the url to that location.
 
 Based on user needs, proactively select the most appropriate tool or combination of tools. For complex tasks, you can break down the problem and use different tools step by step to solve it. After using each tool, clearly explain the execution results and suggest the next steps.
 """
