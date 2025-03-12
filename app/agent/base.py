@@ -142,6 +142,7 @@ class BaseAgent(BaseModel, ABC):
                     self.handle_stuck_state()
 
                 results.append(f"Step {self.current_step}: {step_result}")
+                self.state = AgentState.FINISHED
 
             if self.current_step >= self.max_steps:
                 results.append(f"Terminated: Reached max steps ({self.max_steps})")
